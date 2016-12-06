@@ -8,4 +8,5 @@ This is my third modify.
 
 This is my fourth modify.
 
-This is a confilct modify.111
+This is a resolved modify.
+
