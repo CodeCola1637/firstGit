@@ -8,9 +8,8 @@
 
 #import "TextViewController.h"
 #import "ChapterViewController.h"
-#import "BookService.h"
+#import "LogicService.h"
 
-#define UserDefault [NSUserDefaults standardUserDefaults]
 
 @interface TextViewController ()<SelectChapterDelegate>
 {
@@ -35,7 +34,7 @@
     if (self = [super init]) {
         _bookNum = bookNum;
         [self getChapterList:bookNum];
-        [self seekToIndex:[[UserDefault objectForKey:bookNum] integerValue]];
+        [self seekToIndex:[LogicServiceInstance.localDataService getHistoryIndexForBook:bookNum]];
     }
     return self;
 }
@@ -83,7 +82,7 @@
 - (void)viewWillDisappear:(BOOL)animated {
     
     [super viewWillDisappear:animated];
-    [UserDefault setObject:@(_currentIndex) forKey:_bookNum];
+    [LogicServiceInstance.localDataService updateIndex:_currentIndex toBook:_bookNum];
 }
 
 - (void)seekToIndex:(NSInteger)index {

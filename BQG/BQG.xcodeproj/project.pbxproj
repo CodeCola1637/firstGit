@@ -16,6 +16,15 @@
 		C0429FD21DF9002C008C57BF /* BookService.m in Sources */ = {isa = PBXBuildFile; fileRef = C0429FD11DF9002C008C57BF /* BookService.m */; };
 		C0429FD91DF957D9008C57BF /* ChapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0429FD81DF957D9008C57BF /* ChapterViewController.m */; };
 		C0429FDD1DF95EAD008C57BF /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0429FDC1DF95EAD008C57BF /* TextViewController.m */; };
+		C05262D21DFA45D70017A3E6 /* SearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = C05262D11DFA45D70017A3E6 /* SearchService.m */; };
+		C05262D81DFA46260017A3E6 /* SearchItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C05262D71DFA46260017A3E6 /* SearchItemModel.m */; };
+		C05262DB1DFA49290017A3E6 /* LogicService.m in Sources */ = {isa = PBXBuildFile; fileRef = C05262DA1DFA49290017A3E6 /* LogicService.m */; };
+		C05262DF1DFA4C300017A3E6 /* HtmlAnalyzeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C05262DE1DFA4C300017A3E6 /* HtmlAnalyzeUtil.m */; };
+		C05262E51DFA8B3F0017A3E6 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05262E41DFA8B3F0017A3E6 /* SearchViewController.m */; };
+		C05262E91DFA8B720017A3E6 /* SearchItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C05262E81DFA8B720017A3E6 /* SearchItemTableViewCell.m */; };
+		C05262EE1DFA98E90017A3E6 /* LocalDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = C05262ED1DFA98E90017A3E6 /* LocalDataService.m */; };
+		C05262F21DFA9B230017A3E6 /* LocalBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C05262F11DFA9B230017A3E6 /* LocalBookModel.m */; };
+		C05262F51DFAADBF0017A3E6 /* RootCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C05262F41DFAADBF0017A3E6 /* RootCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +44,25 @@
 		C0429FD81DF957D9008C57BF /* ChapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterViewController.m; sourceTree = "<group>"; };
 		C0429FDB1DF95EAD008C57BF /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
 		C0429FDC1DF95EAD008C57BF /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		C05262D01DFA45D70017A3E6 /* SearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchService.h; sourceTree = "<group>"; };
+		C05262D11DFA45D70017A3E6 /* SearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchService.m; sourceTree = "<group>"; };
+		C05262D61DFA46260017A3E6 /* SearchItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchItemModel.h; sourceTree = "<group>"; };
+		C05262D71DFA46260017A3E6 /* SearchItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchItemModel.m; sourceTree = "<group>"; };
+		C05262D91DFA49290017A3E6 /* LogicService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogicService.h; sourceTree = "<group>"; };
+		C05262DA1DFA49290017A3E6 /* LogicService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogicService.m; sourceTree = "<group>"; };
+		C05262DD1DFA4C300017A3E6 /* HtmlAnalyzeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlAnalyzeUtil.h; sourceTree = "<group>"; };
+		C05262DE1DFA4C300017A3E6 /* HtmlAnalyzeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlAnalyzeUtil.m; sourceTree = "<group>"; };
+		C05262E31DFA8B3F0017A3E6 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		C05262E41DFA8B3F0017A3E6 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		C05262E71DFA8B720017A3E6 /* SearchItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchItemTableViewCell.h; sourceTree = "<group>"; };
+		C05262E81DFA8B720017A3E6 /* SearchItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchItemTableViewCell.m; sourceTree = "<group>"; };
+		C05262EA1DFA98860017A3E6 /* GlobalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalDefine.h; sourceTree = "<group>"; };
+		C05262EC1DFA98E90017A3E6 /* LocalDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalDataService.h; sourceTree = "<group>"; };
+		C05262ED1DFA98E90017A3E6 /* LocalDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalDataService.m; sourceTree = "<group>"; };
+		C05262F01DFA9B230017A3E6 /* LocalBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalBookModel.h; sourceTree = "<group>"; };
+		C05262F11DFA9B230017A3E6 /* LocalBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalBookModel.m; sourceTree = "<group>"; };
+		C05262F31DFAADBF0017A3E6 /* RootCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootCollectionViewCell.h; sourceTree = "<group>"; };
+		C05262F41DFAADBF0017A3E6 /* RootCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +119,8 @@
 		C0429FCE1DF8FF8D008C57BF /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				C0429FCB1DF8FE6C008C57BF /* RootViewController.h */,
-				C0429FCC1DF8FE6C008C57BF /* RootViewController.m */,
+				C05262E21DFA8B280017A3E6 /* SearchVc */,
+				C05262E01DFA89880017A3E6 /* RootVC */,
 				C0429FD71DF957D9008C57BF /* ChapterViewController.h */,
 				C0429FD81DF957D9008C57BF /* ChapterViewController.m */,
 				C0429FDB1DF95EAD008C57BF /* TextViewController.h */,
@@ -104,10 +132,109 @@
 		C0429FCF1DF8FF94008C57BF /* Logic */ = {
 			isa = PBXGroup;
 			children = (
-				C0429FD01DF9002C008C57BF /* BookService.h */,
-				C0429FD11DF9002C008C57BF /* BookService.m */,
+				C05262DC1DFA4BF00017A3E6 /* Utils */,
+				C05262D41DFA46010017A3E6 /* Service */,
+				C05262D31DFA45FB0017A3E6 /* Model */,
+				C05262EA1DFA98860017A3E6 /* GlobalDefine.h */,
 			);
 			name = Logic;
+			sourceTree = "<group>";
+		};
+		C05262D31DFA45FB0017A3E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C05262EF1DFA9B0D0017A3E6 /* LocalBook */,
+				C05262D51DFA460E0017A3E6 /* SearchItem */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C05262D41DFA46010017A3E6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C05262EB1DFA98CF0017A3E6 /* LocalData */,
+				C0429FD01DF9002C008C57BF /* BookService.h */,
+				C0429FD11DF9002C008C57BF /* BookService.m */,
+				C05262D01DFA45D70017A3E6 /* SearchService.h */,
+				C05262D11DFA45D70017A3E6 /* SearchService.m */,
+				C05262D91DFA49290017A3E6 /* LogicService.h */,
+				C05262DA1DFA49290017A3E6 /* LogicService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		C05262D51DFA460E0017A3E6 /* SearchItem */ = {
+			isa = PBXGroup;
+			children = (
+				C05262D61DFA46260017A3E6 /* SearchItemModel.h */,
+				C05262D71DFA46260017A3E6 /* SearchItemModel.m */,
+			);
+			name = SearchItem;
+			sourceTree = "<group>";
+		};
+		C05262DC1DFA4BF00017A3E6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C05262DD1DFA4C300017A3E6 /* HtmlAnalyzeUtil.h */,
+				C05262DE1DFA4C300017A3E6 /* HtmlAnalyzeUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		C05262E01DFA89880017A3E6 /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				C05262E11DFA89930017A3E6 /* Cell */,
+				C0429FCB1DF8FE6C008C57BF /* RootViewController.h */,
+				C0429FCC1DF8FE6C008C57BF /* RootViewController.m */,
+			);
+			name = RootVC;
+			sourceTree = "<group>";
+		};
+		C05262E11DFA89930017A3E6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C05262F31DFAADBF0017A3E6 /* RootCollectionViewCell.h */,
+				C05262F41DFAADBF0017A3E6 /* RootCollectionViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		C05262E21DFA8B280017A3E6 /* SearchVc */ = {
+			isa = PBXGroup;
+			children = (
+				C05262E61DFA8B4E0017A3E6 /* Cell */,
+				C05262E31DFA8B3F0017A3E6 /* SearchViewController.h */,
+				C05262E41DFA8B3F0017A3E6 /* SearchViewController.m */,
+			);
+			name = SearchVc;
+			sourceTree = "<group>";
+		};
+		C05262E61DFA8B4E0017A3E6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C05262E71DFA8B720017A3E6 /* SearchItemTableViewCell.h */,
+				C05262E81DFA8B720017A3E6 /* SearchItemTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		C05262EB1DFA98CF0017A3E6 /* LocalData */ = {
+			isa = PBXGroup;
+			children = (
+				C05262EC1DFA98E90017A3E6 /* LocalDataService.h */,
+				C05262ED1DFA98E90017A3E6 /* LocalDataService.m */,
+			);
+			name = LocalData;
+			sourceTree = "<group>";
+		};
+		C05262EF1DFA9B0D0017A3E6 /* LocalBook */ = {
+			isa = PBXGroup;
+			children = (
+				C05262F01DFA9B230017A3E6 /* LocalBookModel.h */,
+				C05262F11DFA9B230017A3E6 /* LocalBookModel.m */,
+			);
+			name = LocalBook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,12 +309,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05262E91DFA8B720017A3E6 /* SearchItemTableViewCell.m in Sources */,
 				C0429FD21DF9002C008C57BF /* BookService.m in Sources */,
+				C05262DF1DFA4C300017A3E6 /* HtmlAnalyzeUtil.m in Sources */,
+				C05262EE1DFA98E90017A3E6 /* LocalDataService.m in Sources */,
 				C0429FB91DF8FDF0008C57BF /* AppDelegate.m in Sources */,
+				C05262DB1DFA49290017A3E6 /* LogicService.m in Sources */,
+				C05262F21DFA9B230017A3E6 /* LocalBookModel.m in Sources */,
+				C05262D81DFA46260017A3E6 /* SearchItemModel.m in Sources */,
 				C0429FB61DF8FDF0008C57BF /* main.m in Sources */,
 				C0429FDD1DF95EAD008C57BF /* TextViewController.m in Sources */,
 				C0429FD91DF957D9008C57BF /* ChapterViewController.m in Sources */,
+				C05262E51DFA8B3F0017A3E6 /* SearchViewController.m in Sources */,
 				C0429FCD1DF8FE6C008C57BF /* RootViewController.m in Sources */,
+				C05262F51DFAADBF0017A3E6 /* RootCollectionViewCell.m in Sources */,
+				C05262D21DFA45D70017A3E6 /* SearchService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
