@@ -87,6 +87,10 @@
 
 - (void)seekToIndex:(NSInteger)index {
     
+    if (_hrefList.count <= index) {
+        return;
+    }
+    
     [self.navigationItem setTitle:_titleList[index]];
     
     _currentIndex = index;

@@ -83,7 +83,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return self.searchItemList.count;
+    return self.searchItemList.count+1;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -93,17 +93,28 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    SearchItemTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kSearchCellIdentify];
-    cell.chooseDelegate = self;
-    [cell renderWithModel:self.searchItemList[indexPath.row]];
+    UITableViewCell *cell;
+    if (indexPath.row == self.searchItemList.count) {
+        cell = [UITableViewCell new];
+        [cell.textLabel setText:@"点击加载更多"];
+    } else {
+        SearchItemTableViewCell *searchCell = [tableView dequeueReusableCellWithIdentifier:kSearchCellIdentify];
+        searchCell.chooseDelegate = self;
+        [searchCell renderWithModel:self.searchItemList[indexPath.row]];
+        cell = searchCell;
+    }
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    SearchItemModel *model = self.searchItemList[indexPath.row];
-    TextViewController *controller = [[TextViewController alloc] initWithBookNum:model.bookNum];
-    [self.navigationController pushViewController:controller animated:YES];
+    if (indexPath.row == self.searchItemList.count) {
+        [self onSearchNextPage:nil];
+    } else {
+        SearchItemModel *model = self.searchItemList[indexPath.row];
+        TextViewController *controller = [[TextViewController alloc] initWithBookNum:model.bookNum];
+        [self.navigationController pushViewController:controller animated:YES];
+    }
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {

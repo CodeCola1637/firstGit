@@ -54,6 +54,11 @@
     [_addBtn setTitle:@"临幸" forState:UIControlStateNormal];
     [_addBtn addTarget:self action:@selector(onClickChooseBtn:) forControlEvents:UIControlEventTouchUpInside];
     [self.contentView addSubview:_addBtn];
+    
+    [_titleLabel setAutoresizingMask:UIViewAutoresizingFlexibleWidth];
+    [_descLabel setAutoresizingMask:UIViewAutoresizingFlexibleWidth];
+    [_infoLabel setAutoresizingMask:UIViewAutoresizingFlexibleWidth];
+    [_addBtn setAutoresizingMask:UIViewAutoresizingFlexibleLeftMargin];
 }
 
 - (void)renderWithModel:(SearchItemModel *)model {
