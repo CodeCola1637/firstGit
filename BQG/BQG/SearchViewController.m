@@ -67,7 +67,7 @@
     
     [self.textField resignFirstResponder];
     
-    _currentSearchIndex = 1;
+    _currentSearchIndex = 0;
     _searchItemList = [LogicServiceInstance.searchService searchKeyWord:_textField.text andPageIndex:_currentSearchIndex];
     [self.tableView reloadData];
 }
