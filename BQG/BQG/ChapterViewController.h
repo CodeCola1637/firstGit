@@ -16,6 +16,6 @@
 
 @interface ChapterViewController : UIViewController
 
-- (instancetype)initWithChapterList:(NSArray *)chapterList andDelegate:(id<SelectChapterDelegate>)delegate;
+- (instancetype)initWithChapterList:(NSArray *)chapterList currentIndex:(NSInteger)index andDelegate:(id<SelectChapterDelegate>)delegate;
 
 @end

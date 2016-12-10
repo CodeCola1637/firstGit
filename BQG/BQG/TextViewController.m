@@ -106,7 +106,7 @@
 #pragma mark - Event
 - (void)onClickChapter:(id)sender {
     
-    ChapterViewController *controller = [[ChapterViewController alloc] initWithChapterList:_titleList andDelegate:self];
+    ChapterViewController *controller = [[ChapterViewController alloc] initWithChapterList:_titleList currentIndex:_currentIndex andDelegate:self];
     [self.navigationController pushViewController:controller animated:YES];
 }
 
